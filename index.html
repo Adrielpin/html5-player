@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/screem.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bar.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <!-- tela cheia -->
+    <div class="screem">
+        
+        <div class="max">
+            <div class="content">
+                <div class="button-minimize">
+                    <i class="fas fa-compress"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="display">
+            
+            <!-- botoes -->
+            <div class="play">
+                <div class="content">
+                    <div class="button-play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="button-pause">
+                        <i class="fas fa-pause"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- programação -->
+            <div class="prog">
+                <div class="content">
+                    <p class="live">    
+                        Ao vivo - netherland jokers- lagoa fm
+                    </p>
+                </div>
+            </div>
+            
+        </div> 
+        
+        <div class="volume">
+
+            <div class="content">
+                
+                <div class="volumes button-volume-minus">
+                    <i class="fas fa-minus"></i>
+                </div>
+                <input type="range" min="1" max="100" value="50" class="volume-range">
+                <div class="volumes button-volume-plus">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="bar">
+        
+        <div class="play">
+            <div class="content">
+                <div class="button-play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <div class="button-pause">
+                    <i class="fas fa-pause"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="volume">
+            <div class="content">
+                <div class="volumes button-volume-minus">
+                    <i class="fas fa-minus"></i>
+                </div>
+                <input type="range" min="1" max="100" value="50" class="volume-range">
+                <div class="volumes button-volume-plus">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="prog">
+            <div class="content">
+                
+                <marquee direction="left" scrollamount="5" class="live">    
+                    Ao vivo - netherland jokers- lagoa fm 
+                </marquee>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="max">
+            <div class="content">
+                <div class="buttom-maximize">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

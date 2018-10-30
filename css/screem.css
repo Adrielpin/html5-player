@@ -1,0 +1,126 @@
+.screem {
+    display: none;
+    width:100vw;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+
+}
+
+.screem
+.display {
+    position: relative;
+    float: left;
+    width:100%;
+    height: 80%;
+}
+
+.screem
+.display
+.play {
+    position: relative;
+    float:left;
+    width: 40%;
+}
+
+.screem
+.play
+.content {
+    margin: 50%;
+    font-size: 8em;
+    margin: 50%;
+}
+
+
+.screem
+.display
+.prog {
+    position: relative;
+    float: right;
+    width: 60%;
+}
+
+.live {
+    position: relative;
+    font-size: 6em;
+}
+
+.screem
+.button-play{
+    display:block;
+}
+
+.screem
+.button-pause{
+    display:none;
+}
+
+.screem
+.max {
+    width: 100%;
+    height: 10%;
+}
+
+.screem
+.max
+.content {
+    width: 50px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: auto;
+    font-size: 2em;
+}
+
+
+.screem
+.volume {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 10%;
+    font-size: 1.5em;
+}
+
+
+.screem
+.volume
+.content {
+    widows: 80%;
+    margin: 0 10%;
+}
+
+.screem
+.volume-range {
+    position: relative;
+    float: left;
+    -webkit-appearance: none;
+    margin: 13px 5px;
+    width: 75%;
+}
+
+.screem
+.volume-range:focus {
+    outline: none;
+}
+
+.screem
+.volume-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    border-radius: 1px;
+}
+
+.screem
+.volume-range::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #2497E3;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
